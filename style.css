@@ -1,0 +1,37 @@
+
+#heading{
+	color: #000000;
+	text-align: center;
+	background-color: #79aee4;
+	padding: 80px;
+	margin:0;
+}
+nav{
+	
+	
+	background-color: black;
+	padding: 14px;
+	margin :0;
+}
+nav a {
+	color:whitesmoke;
+/*	display: block;*/
+	
+	text-decoration: none;
+	padding : 14px ;
+	
+}
+nav a:hover {
+	background-color: skyblue;
+	color : black;
+}
+#flex_container{
+	display:flex;
+}
+#left_side{
+	flex: 40%;
+	background-color: #f1f1f1;
+}
+#right_side{
+	flex: 50%;
+}
